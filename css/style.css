@@ -1,0 +1,134 @@
+* {
+    box-sizing:border-box ;
+    margin: 0;
+}
+
+h1 {
+    padding: 30px;
+}
+
+.header--dark {
+    background-color: rgb(51, 57, 64);
+    color: rgb(236, 236, 236);
+    position: relative;
+}
+.header__title {
+    display: inline;
+    font-size: 1.25rem;
+    line-height: 2.5rem;
+}
+.header__search {
+    float: right;
+    display: inline;
+    padding: .375rem .75rem;
+    font-size: 1.2rem;
+}
+
+.search__input {
+    border-radius: 4px 0 0 4px;
+    transition: border-color .15s;
+}
+.search__btn {
+    border-radius: 0 4px 4px 0;
+    background-color: rgb(0, 123, 255);
+    margin-left:-0.3rem;
+}
+
+.search__input:focus {
+    border-color: rgb(128, 189, 255);
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.main__nav {
+    background-color:rgb(33, 37, 41);
+    color: rgb(236, 236, 236);
+    }
+
+.main__nav .nav__ul{
+    list-style: none;
+    padding: 0 2em;
+}
+
+.nav__ul li a {
+    color: grey;
+    padding: .2rem 0 1rem 1rem;
+}
+
+.main__breadcrump {
+    font-size: 1.5rem;
+    line-height: 5rem;
+    width: 130vh;
+    border: 3px;
+    border-radius: .25rem;
+    background-color:rgb(233, 236, 239);
+    margin-bottom: 50px;
+    margin-left: 50px;
+    height: 5rem;
+    padding-left: 2rem;
+    
+}
+
+.main__cards {
+    display: inline-flex;
+    flex-direction: row;
+    margin-left: 50px;
+    flex-wrap: nowrap;
+}
+
+.main__card {
+    margin: 0 1rem 0 1rem;
+    width: 15rem;
+    color: white;
+}
+
+.details {
+    padding-right: 2.1rem;
+}
+.card__top {
+    font-size: 1.1rem;
+    font-weight: 100;
+    padding: 2rem 2.5rem 2rem .5rem;
+    }
+
+.card__bottom {
+    font-size: .9rem;
+    font-weight: 100;
+    padding: .3rem 2.5rem .3rem .5rem;
+    }
+
+    
+}
+.main__breadcrump--span {
+    padding: 1rem 1.5rem;
+    color: rgb(122, 113, 113);
+}
+
+.card__top {
+    border-radius: .25rem .25rem 0 0;
+    transition: background-color .3s;
+}
+.card__bottom {
+    border-radius: 0 0 .25rem .25rem;
+    transition: background-color .3s;
+}
+
+.main__card--blue {
+    background-color: rgb(0, 123, 255);
+}
+
+.main__card--yellow {
+    background-color: rgb(255, 193, 7);
+}
+
+.main__card--green {
+    background-color: rgb(40, 167, 69);
+}
+
+.main__card--red {
+    background-color: rgb(220, 53, 69);
+}
